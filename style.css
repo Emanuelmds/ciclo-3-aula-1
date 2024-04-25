@@ -1,0 +1,65 @@
+
+body{
+    background-color: #D9D9D9;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+}
+
+
+.logo{
+    margin-left: 65px;
+    width: 200px;
+    height: 200px;
+}
+
+#taxa-select{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+    height: 25px;
+    
+    
+}
+
+
+#button{
+    width: 170px;
+    height: 25px;
+    margin-top: 5px; 
+}
+
+
+
+
+.valor-conta,
+.taxa-de-serviço,
+.Quantidade-Pagantes {
+    margin-bottom: 5px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    width:50px;
